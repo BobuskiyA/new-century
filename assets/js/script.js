@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 	const form = document.getElementById('popup-form');
-	const formClass = document.querySelector('.popup-feedback-form');
+	const formClass = document.querySelector('.feedback-form');
 	form.addEventListener('submit', formSend);
 
 	async function formSend(e) {
@@ -287,3 +287,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	input.addEventListener('input', onInput);
 });
+

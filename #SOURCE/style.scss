@@ -531,6 +531,9 @@ html {
 				line-height: 120%; /* 24px */
 				width: 80%;
 				padding: 20px 0;
+				display: flex;
+				justify-content: center;
+				margin: 0 auto;
 			}
 		}
 	}
@@ -1092,7 +1095,7 @@ html {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		.popup-feedback-form {
+		.feedback-form {
 			position: relative;
 			display: flex;
 			flex-direction: column;

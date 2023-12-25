@@ -509,6 +509,9 @@ html {
   line-height: 120%; /* 24px */
   width: 80%;
   padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 .information-section .information-call {
   flex-direction: column;
@@ -1091,7 +1094,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.popup .feedback-form__wrap .popup-feedback-form {
+.popup .feedback-form__wrap .feedback-form {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1101,13 +1104,13 @@ html {
   justify-content: center;
   padding: 40px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .popup-close {
+.popup .feedback-form__wrap .feedback-form .popup-close {
   background: none;
   position: absolute;
   right: 5%;
   top: 5%;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-title {
+.popup .feedback-form__wrap .feedback-form .form-title {
   color: #FFF;
   font-family: Lato;
   font-size: 40px;
@@ -1116,13 +1119,13 @@ html {
   line-height: 120%; /* 48px */
   margin-bottom: 30px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group {
+.popup .feedback-form__wrap .feedback-form .form-button__group {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group .form-button[type=radio] + label {
+.popup .feedback-form__wrap .feedback-form .form-button__group .form-button[type=radio] + label {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1140,33 +1143,33 @@ html {
   line-height: 130%; /* 26px */
   transition: 0.5s;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group .form-button[type=radio] + label p {
+.popup .feedback-form__wrap .feedback-form .form-button__group .form-button[type=radio] + label p {
   margin-right: 15px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group .form-button[type=radio] + label svg {
+.popup .feedback-form__wrap .feedback-form .form-button__group .form-button[type=radio] + label svg {
   fill: #FFF;
   transition: 0.5s;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group input[type=radio] {
+.popup .feedback-form__wrap .feedback-form .form-button__group input[type=radio] {
   display: none;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group .input-active {
+.popup .feedback-form__wrap .feedback-form .form-button__group .input-active {
   outline: 0 !important;
   background: #FFF !important;
   color: #2F3280 !important;
   transition: 0.5s !important;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-button__group .input-active svg {
+.popup .feedback-form__wrap .feedback-form .form-button__group .input-active svg {
   fill: #2F3280 !important;
   transition: 0.5s !important;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-input__group {
+.popup .feedback-form__wrap .feedback-form .form-input__group {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-input {
+.popup .feedback-form__wrap .feedback-form .form-input {
   border-bottom: 1px solid #FFF;
   color: #FFF;
   font-family: Lato;
@@ -1180,11 +1183,11 @@ html {
   padding: 20px 0;
   margin-bottom: 30px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-input::placeholder {
+.popup .feedback-form__wrap .feedback-form .form-input::placeholder {
   color: #FFF;
   opacity: 0.5;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-select {
+.popup .feedback-form__wrap .feedback-form .form-select {
   background: none;
   border-bottom: 1px solid #FFF;
   padding: 20px 0;
@@ -1202,10 +1205,10 @@ html {
   background: url("/images/arrow.svg") no-repeat right;
   overflow: hidden;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-select option {
+.popup .feedback-form__wrap .feedback-form .form-select option {
   color: #2F3280;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-submit {
+.popup .feedback-form__wrap .feedback-form .form-submit {
   border-radius: 12px;
   background: linear-gradient(180deg, #D4DFFC 0%, #C7D6FF 100%);
   padding: 20px 0;
@@ -1219,7 +1222,7 @@ html {
   width: 35%;
   margin-bottom: 30px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .valid {
+.popup .feedback-form__wrap .feedback-form .valid {
   color: #FFF;
   text-align: center;
   font-family: Lato;
@@ -1230,13 +1233,13 @@ html {
   width: 40%;
   margin-bottom: 15px;
 }
-.popup .feedback-form__wrap .popup-feedback-form .ok {
+.popup .feedback-form__wrap .feedback-form .ok {
   color: rgb(92, 235, 92);
 }
-.popup .feedback-form__wrap .popup-feedback-form .not {
+.popup .feedback-form__wrap .feedback-form .not {
   color: red;
 }
-.popup .feedback-form__wrap .popup-feedback-form .form-description {
+.popup .feedback-form__wrap .feedback-form .form-description {
   color: #FFF;
   text-align: center;
   font-family: Lato;
